@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img{
+    border-radius: 10px;
+}
+
+header{
+    padding: 60px;
+    text-align: center; 
+    background-color: #7B919C;
+}
+
+header div{
+    background-color: #57707A;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+header h1{
+    margin: 0 0 20px;
+}
+
+header p{
+    margin: 0 0 10px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #57707A;
+}
+
+.nav-bar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: 0.6s;
+    text-align: center;
+}
+
+.nav-bar a:hover{
+    background-color: #989DAA;
+    transition: 0.6s;
+}
+
+@media screen and (max-width: 700px){
+    .nav-bar{
+        flex-direction: column;
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+aside{
+    flex: 25%;
+    background-color: #57707A;
+    padding: 20px;
+    color: white;
+}
+
+.Social-media{
+    padding: 20px;
+    margin: 30px;
+}
+
+.main{
+    flex: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;  
+}
+
+.p1{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 700px){
+    .nav-bar , .row{
+        flex-direction: column;
+    }
+}
+
+aside h1{
+    color: white;
+    font-family: 35px;
+}
+
+aside p{
+    color: white;
+    font-family: 30px;
+}
+
+.main h2{
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.Years h1{
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-align: center;
+     font-size: 35px;
+}
+
+article img{
+    width: 60%;
+    object-fit: cover;
+}
+
+.read-more{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #57707A;
+    margin-left: 20px;
+    transition: 0.6s;
+}
+
+
+.main .read-more:hover{
+    background-color: #989DAA;
+    transition: 0.6s;
+}
+
+.experience{
+    text-align: center;
+}
+
+.container{
+    background-color: #57707A;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    transition: 0.6s;
+}
+
+.container:hover{
+    transition: 0.6s;
+    background-color: #989DAA;
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.refer1{
+    background-color: #57707A;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.6s;
+}
+
+.refer1:hover{
+    transition: 0.6s;
+    background-color: #989DAA;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+.refer2{
+    background-color: #57707A;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.6s;
+}
+
+.refer2:hover{
+    transition: 0.6s;
+    background-color: #989DAA;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.container-refer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.ref{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-for{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.Bac{
+    background-color: #57707A;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 70px;
+    transition: 0.6s;
+    text-align: center; 
+}
+.Bac:hover{
+    transition: 0.6s;
+    background-color: #989DAA;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+.Uni{
+    background-color: #57707A;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 70px;
+    transition: 0.6s;
+    text-align: center;
+}
+.Uni:hover{
+    transition: 0.6s;
+    background-color: #989DAA;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+
+.Goals{
+    background-color: #57707A;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin: 30px;
+    transition: 0.6s;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.Goals:hover{
+    transition: 0.6s;
+    background-color: #989DAA;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+
+.container-home{
+    
+}
+
+
+
+
+
+
